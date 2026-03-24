@@ -1,0 +1,98 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3f3f3;
+        }
+
+        .container {
+            width: 800px;
+            height: 400px;
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 3px solid #0f7777;
+        }
+        .left {
+            width: 50%;
+            padding: 40px;
+            background: #fff;
+        }
+
+        .left h2 {
+            margin-bottom: 30px;
+            color: #0f7777;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            color: #333;
+        }
+
+        .input-group {
+            display: flex;
+        }
+
+        input,
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        input {
+            width: 70%;
+            border-right: none;
+        }
+
+        select {
+            width: 30%;
+        }
+
+        .full {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #0f7777;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #095f5f;
+        }
+        .right {
+            width: 50%;
+            background: #0f7777;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .result {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .unit {
+            font-size: 25px;
+            margin-top: -10px;
+        }
